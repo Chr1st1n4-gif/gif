@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Media Content</title>
-    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Chr1st1n4-gif/gif/172xrw00523-1.mp4" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Chr1st1n4-gif/gif/172xrw00523-1.mp4" />
-    <meta name="twitter:player:width" content="480" />
-    <meta name="twitter:player:height" content="270" />
+    <title>My Video Page</title>
+    <style>
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
   </head>
   <body>
-    <video id="my-video" autoplay loop muted>
-      <source src="https://cdn.jsdelivr.net/gh/Chr1st1n4-gif/gif/172xrw00523-1.mp4" type="video/mp4" />
+    <video autoplay loop muted controls="false">
+      <source src="https://cdn.jsdelivr.net/gh/Chr1st1n4-gif/gif/172xrw00523-1.mp4" type="video/mp4">
     </video>
   </body>
 </html>
+
